@@ -1,0 +1,21 @@
+#background
+{
+background-image: url("chapel.png");
+background-repeat: no-repeat;
+background-attachment:fixed;
+background-position:0px 0px;
+}
+#player
+{
+position:absolute;
+width:65px;
+height:65px;
+background-image:url("jerry1.png");
+}
+#bullet
+{
+position:absolute;
+width:3px;
+height:3px;
+background-image:url("ben1.png");
+}
