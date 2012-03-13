@@ -302,6 +302,8 @@ function fire(bulletx,bullety,fsin,fcos)
 $("<bullet id='bullet'></bullet>").appendTo("body");
 $("bullet").css({"left":bulletx});
 $("bullet").css({"top":bullety});
+var bullet_angle = angle;
+$("#bullet").rotate(bullet_angle);
 xsin = fsin;
 xcos = fcos;
 travel = setInterval("bullet()",25);
